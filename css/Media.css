@@ -1,0 +1,132 @@
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media all and (max-width: 767px) {
+  body {
+    font-size: 3vw;
+  }
+  .container-sm,
+  .container {
+    width: 80%;
+  }
+  header .container .box ul {
+    display: none;
+  }
+  header .text > span {
+    font-size: 22px;
+  }
+  header .text h1 {
+    font-size: 38px;
+    text-align: center;
+  }
+  header .text .parent {
+    font-size: 18px;
+  }
+
+  .about .container .box-03 div {
+    display: flex;
+    margin-top: 35px;
+    flex-direction: column;
+    width: fit-content;
+  }
+  .Services .container .box {
+    width: 100%;
+  }
+  .other {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .Testmonial .container .box .box-01 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Contact form .box-01 .box-02 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 720px;
+  }
+  header .container .box .menu {
+    display: none;
+  }
+  .about .container .box-03 {
+    width: 450px;
+  }
+  /* .about .container .box-03 ul {
+    display: none;
+  } */
+  .Services .container .box {
+    width: 50%;
+  }
+}
+@media all and (max-width: 991px) {
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 960px;
+  }
+  .about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about .container .box-01 .box-02 .links::before {
+    width: 98%;
+    border-radius: 16px 16px 16px 16px;
+  }
+  .about .container .box-01 .box-02 img {
+    border-radius: 16px 16px 16px 16px;
+  }
+}
+@media (min-width: 992px) {
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 960px;
+  }
+  .Services .container .box {
+    width: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1320px;
+  }
+  .about .container .box-03 table {
+    display: none;
+  }
+}
